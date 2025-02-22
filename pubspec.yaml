@@ -1,0 +1,31 @@
+name: planner
+description: "An application for scheduling meetings, maintaining contacts, taking notes and managing tasks."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  scoped_model: ^2.0.0
+  sqflite: ^2.3.3+2
+  path_provider: ^2.1.4
+  flutter_slidable: ^3.1.1
+  intl: ^0.19.0
+  image_picker: ^1.1.2
+  flutter_calendar_carousel: 2.4.4
+  cupertino_icons: ^1.0.8
+  path: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
