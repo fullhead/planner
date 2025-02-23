@@ -28,7 +28,7 @@ class ContactsEntry extends StatelessWidget {
     });
   }
 
-  ///
+  /// Метод для построения виджета.
   @override
   Widget build(BuildContext inContext) {
     _nameEditingController.text = contactsModel.entityBeingEdited.name;
